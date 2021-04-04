@@ -1,6 +1,7 @@
 '''
     Author: Jahongir Sobirov
     License: MIT
+    Version: 1.0.0
     All rights reserved 2021 (c)
 '''
 import turtle
