@@ -52,3 +52,21 @@ import pymetry
 pym = pymetry
 pym.heptagon(100, "yellow", 8)
 ```
+### Draw octagon in Pymetry
+```markdown
+import pymetry
+pym = pymetry
+pym.octagon(150, "yellow", 8)
+```
+### Draw polygon in Pymetry
+```markdown
+import pymetry
+pym = pymetry
+pym.polygon("blue", 3)
+```
+### Turtle shape in Pymetry
+```markdown
+import pymetry
+pym = pymetry
+pym.trsize("1, 20, 15)
+```
