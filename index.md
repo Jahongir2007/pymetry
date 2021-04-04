@@ -1,37 +1,72 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Jahongir2007/pymetry/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+### How to use in Pymetry
+With this python library, you can draw shapes in just one line of code from the turtle module.
+### Draw square in Pymetry
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+import pymetry
+pym = pymetry
+pym.square(100, "orange", 5)
+#100 => distance
+#"orange" => color line
+#5 => line size
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jahongir2007/pymetry/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Draw triangle in Pymetry
+```markdown
+import pymetry
+pymetry.triangle(90, 135, 100, "orange", 0)
+#90 => corner
+#135 => corner
+```
+### Draw corner in Pymetry
+```markdown
+import pymetry
+pym = pymetry
+pym.corner(20, 100, "black", 2)
+#20 => corner
+```
+### Draw rectangle in Pymetry
+```markdown
+import pymetry
+pym = pymetry
+pym.rect(100, "gray", 7)
+```
+### Draw circle in Pymetry
+```markdown
+import pymetry
+pymetry.circle(60, "brown", 4)
+```
+### Draw pentagon in Pymetry
+```markdown
+import pymetry
+pym = pymetry
+pym.pentagon(150, "yellow", 8)
+```
+### Draw hexagon in Pymetry
+```markdown
+import pymetry
+pym = pymetry
+pym.hexagon(200, "yellow", 8)
+```
+### Draw heptagon in Pymetry
+```markdown
+import pymetry
+pym = pymetry
+pym.heptagon(100, "yellow", 8)
+```
+### Draw octagon in Pymetry
+```markdown
+import pymetry
+pym = pymetry
+pym.octagon(150, "yellow", 8)
+```
+### Draw polygon in Pymetry
+```markdown
+import pymetry
+pym = pymetry
+pym.polygon("blue", 3)
+```
+### Turtle shape in Pymetry
+```markdown
+import pymetry
+pym = pymetry
+pym.trsize("1, 20, 15)
+```
