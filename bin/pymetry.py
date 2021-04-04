@@ -1,3 +1,8 @@
+'''
+    Author: Jahongir Sobirov
+    License: MIT
+    All rights reserved 2021 (c)
+'''
 import turtle
 pymetry = turtle.Turtle()
 def square(distance, color, bold):
