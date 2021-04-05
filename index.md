@@ -1,5 +1,55 @@
 ### How to use in Pymetry
 With this python library, you can draw shapes in just one line of code from the turtle module.
+## Pymetry 1.1.0 (new version)
+### How to calc perimeter square and triangle (in pymetry 1.1.0 version)
+```markdown
+import pymetry
+pym = pymetry
+
+#Calc perimeter square
+pym.perm(12, 25)
+
+#Calc peimeter triangle
+pym.pert(10, 14, 12)
+```
+### How to calc square side and triangle side (in pymetry 1.1.0 version)
+```markdown
+import pymetry
+pym = pymetry
+
+#Calc square side
+pym.sqside("unknown", 12, 25, 70)
+
+#Calc triangle side
+pym.trside("unknown", 14, 12, 42)
+```
+### What is it ```"unknown"```?
+```"unknown"``` is the keyword that specifies the value to be found in this pymetry
+### What is it ```aboutme()``` (in pymetry 1.1.0 version)?
+```markdown
+import pymetry
+pym = pymetry
+
+#aboutme()
+pym.aboutme()
+#value: Pymetry python library. Author: Jahongir Sobirov.License: MIT. Version: 1.1.0
+```
+### How to calc adjacent corners (in pymetry 1.1.0 version)
+```markdown
+import pymetry
+pym = pymetry
+
+#Calc adjacent corners
+pym.adjaccor("unknown", 135)
+```
+### How to calc value of triangle degrees (in pymetry 1.1.0 version)
+```markdown
+import pymetry
+pym = pymetry
+
+#Calc value of triangle degrees
+pym.valtri("unknown", 50, 120)
+```
 ### Draw square in Pymetry
 ```markdown
 import pymetry
