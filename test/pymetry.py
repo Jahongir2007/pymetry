@@ -1,8 +1,8 @@
 '''
     Author: Jahongir Sobirov
+    Pymetry python library
     License: MIT
-    Version: 1.0.0
-    All rights reserved 2021 (c)
+    Version: 1.1.0
 '''
 import turtle
 pymetry = turtle.Turtle()
@@ -77,3 +77,52 @@ def polygon(color, bold):
     for i in range(n):
         pymetry.forward(l)
         pymetry.right(360 / n)
+def adjaccor(first_cor, second_cor):
+    if first_cor == "unknown":
+        value = 180 - second_cor
+        print(value)
+    elif second_cor == "unknown":
+        value = 180 - first_cor
+        print(value)
+    else:
+        print("Not unknowns!")
+def valtri(a, b, c):
+    if a == 'unknown':
+        value = 180 - b - c
+        print(value)
+    elif b == 'unknown':
+        value = 180 - a - c
+    elif c == 'unknown':
+        value = 180 - a - b
+    else:
+        print("Not unknowns!")
+def perm(a, b):
+    value = a + a + b + b
+    print(value)
+def sqside(a, b, per):
+    if a == "unknown":
+        value = (per - 2 * b) / 2
+        print(value)
+    elif b == "unknown":
+        value = (per - 2 * a) / 2
+        print(value)
+    else:
+        print("Not unknowns!")
+def pert(a, b, c):
+    value = a + b + c
+    print(value)
+def trside(a, b, c, per):
+    if a == "unknown":
+        value = per - c - b
+        print(value)
+    elif b == "unknown":
+        value = per - a - c
+        print(value)
+    elif c == "unknown":
+        value = per - a - b
+    elif per == "unknown":
+        print("Error!")
+    else:
+        print("Not unknowns!")
+def aboutme():
+    print("Pymetry python library. Author: Jahongir Sobirov.License: MIT. Version: 1.1.0")
